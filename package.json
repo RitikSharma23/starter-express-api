@@ -1,38 +1,22 @@
 {
-  "name": "fc_api",
+  "name": "starter-express-api",
   "version": "1.0.0",
-  "description": "This is find and consult api backend",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "build": "node index.js",
-    "dev": "node index.js"
+    "start": "node index.js"
   },
-  "keywords": [
-    "fc",
-    "api"
-  ],
-  "author": "Ritik Sharma",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyclic-software/starter-express-api.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cyclic-software/starter-express-api/issues"
+  },
+  "homepage": "https://github.com/cyclic-software/starter-express-api#readme",
   "dependencies": {
-    "@firebase/auth": "^0.23.2",
-    "@googleapis/calendar": "^9.5.0",
-    "bcrypt": "^5.1.1",
-    "body-parser": "^1.20.2",
-    "cors": "^2.8.5",
-    "date-fns": "^3.0.6",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "firebase": "^7.24.0",
-    "firebase-admin": "^11.11.0",
-    "firebaseauth": "^1.0.0",
-    "google-auth-library": "^9.4.1",
-    "googleapis": "^129.0.0",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.0.0",
-    "nodemailer": "^6.9.7",
-    "nodemon": "^3.0.1",
-    "ws": "^8.15.0"
+    "express": "^4.18.2"
   }
 }
